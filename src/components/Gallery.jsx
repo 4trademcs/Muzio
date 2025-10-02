@@ -1,7 +1,7 @@
 // src/components/Gallery.jsx
 import { motion } from "framer-motion";
 
-const images = ["/img/1.jpg", "/img/2.jpg", "/img/3.jpg", "/img/4.jpg"];
+const images = ["/p-1.webp", "/p-2.webp", "/p-3.webp", "/p-4.webp"];
 
 export default function Gallery() {
   return (
@@ -19,7 +19,18 @@ export default function Gallery() {
               transition={{ type: "spring", stiffness: 160, damping: 18 }}
               className="w-40 h-52 bg-white p-2 shadow-xl rotate-[-3deg] hover:rotate-0"
             >
-              <img src={src} alt="" className="w-full h-full object-cover" />
+              <a
+                href={src}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full h-full"
+              >
+                <img
+                  src={src}
+                  alt={`Polaroid ${i + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              </a>
             </motion.div>
           ))}
         </div>
