@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Hero from "../components/Hero";
 import ImageTrail from "../components/reactBits/image-trailOwn";
 import Reasons from "../components/Reasons";
 import Timeline from "../components/Timeline";
@@ -8,6 +7,7 @@ import Letter from "../components/Letter";
 import Coupons from "../components/Coupons";
 import Gallery from "../components/Gallery";
 import reasons from "../components/reasons.json";
+import GradientText from "../components/reactBits/GradientText";
 
 import ConfettiBackdrop from "../components/ConfettiBackdrop";
 import Footer from "../components/Footer";
@@ -37,7 +37,14 @@ export default function App() {
       />
 
       {/* 1) Hero */}
-      <Hero />
+      <GradientText
+            colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+            animationSpeed={3}
+            showBorder={false}
+            className="custom-class text-6xl p-4 text-center m-auto h-screen z-0 bg-transparent w-full"
+          >
+            ¡Feliz Cumple Amanda!
+          </GradientText>
 
       {/* 2) Reasons + Infinite Scroll */}
       <section id="reasons" className="relative py-24">
