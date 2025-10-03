@@ -1,4 +1,4 @@
-import DomeGallery from './reactBits/DomeGallery';
+import DomeGallery from "./reactBits/DomeGallery";
 import TextType from './reactBits/TextType';
 
 export default function App() {
