@@ -12,6 +12,7 @@
   transition: box-shadow 0.5s ease-out;
   overflow: hidden;
   cursor: pointer;
+  backdrop-filter: none;
 }
 
 .gradient-overlay {
@@ -59,7 +60,7 @@
 .text-content {
   display: inline-block;
   position: relative;
-  z-index: 2;
+  z-index: 0;
   background-size: 300% 100%;
   background-clip: text;
   -webkit-background-clip: text;
