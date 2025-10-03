@@ -26,7 +26,7 @@ export default function usePlayfulIntro() {
   // textos de botones por fase (índice = step-1)
   const b1Texts = useMemo(() => ([
     "Tócame si te atreves",
-    "¿No, tia Paola dijo grosería",
+    "No, tia Paola dijo grosería",
     "Hmm… así mami así 😜",
     "Cállate robacolágeno",
     "Muy emocionada 👀",
