@@ -72,7 +72,7 @@ export default function App() {
       <section className="relative py-20">
         <div className="m-auto min-h-[100vh] relative">
           <h2 className="mx-auto text-2xl md:text-4xl font-semibold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-fuchsia-400 p-4 relative z-10">
-            Ven, hagamos magia juntos… arrastra un menique por la pantalla ✨
+            Ven, hagamos magia juntos… arrastra un meñique por la pantalla ✨
           </h2>
 
           <div
