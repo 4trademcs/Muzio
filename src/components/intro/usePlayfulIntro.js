@@ -17,9 +17,9 @@ export default function usePlayfulIntro() {
     1: "Hola Amanda, vas a tener a un novio programador… así que prepárate para estas cosas 💻✨",
     2: "Ajá… hoy es el cumple de tia Paola, tia Paola, ¿verdad? 😏",
     3: "Y te pregunto que es lo q mas te he dicho siempre?",
-    4: "Ups… ¡cuanto es (10*2)-una menor+los años que fuimos amigos? 😅💘",
-    5: "Ya casi… ¿Cuan emocionada estas por saber que es tu regalo?",
-    6: "no es tan facil, primero haz que el mundo caiga a nuestros pies ✨",
+    4: "Ups… ¿Cuanto es (10*2)-una menor+los años que fuimos amigos? 😅💘",
+    5: "Ya casi… ¿Cuan emocionada estás por saber que es tu regalo?",
+    6: "No es tan fácil, primero haz que todo caiga a nuestros pies ✨",
     7: "Ok, última pregunta… ¿Jazz o K-Pop? 🎬",
   }), []);
 
@@ -39,7 +39,7 @@ export default function usePlayfulIntro() {
     "Hoy!!!! 🤝",
     "Ni idea, yo meo gradas y ya 🍕🎬",
     "F= m*a 😉",
-    "Quiero con abrazo",
+    "Quiero un abrazo",
     "WTF!",
     "Jazz 😅", 
   ]), []);

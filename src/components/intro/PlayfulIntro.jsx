@@ -17,7 +17,7 @@ export default function PlayfulIntro() {
     onStep6Activated,
   } = usePlayfulIntro();
 
-  const highlightWords = useMemo(() => ["Amanda", "programador", "corazón", "cae"], []);
+  const highlightWords = useMemo(() => ["todo", "que", "caiga", "fácil"], []);
   const handleFallingActivated = useCallback(() => onStep6Activated(), [onStep6Activated]);
 
   return (

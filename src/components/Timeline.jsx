@@ -3,8 +3,8 @@ import TextType from './reactBits/TextType';
 
 export default function App() {
   return (
-    <>
-      <div className="text-center my-8 px-6">
+    <section className='mt-20 mb-24'>
+      <div className="text-center my-14 px-6">
         <TextType
           text={["Desde que llegaste", "Cambió mi mundo", "Happy Birthday!"]}
           typingSpeed={75}
@@ -15,7 +15,7 @@ export default function App() {
         />
       </div>
 
-      <div id='noConfetti' style={{ width: '100vw', height: '100vh' }}>
+      <div id='noConfetti' style={{ width: '100vw', height: '60vh' }}>
         <DomeGallery 
           minRadius={300}
           segments={15}
@@ -26,6 +26,6 @@ export default function App() {
           spinDegPerSec={8} 
         />
       </div>
-    </>
+    </section>
   );
 }
